@@ -1,0 +1,34 @@
+body {
+  background: url('https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?fit=crop&w=1500') no-repeat center center/cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-box input, .login-box button {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+}
+
+.login-box button {
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
